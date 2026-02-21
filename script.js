@@ -26,3 +26,15 @@ function toggleMobileMega(id) {
   const menu = document.getElementById(id);
   content.innerHTML = menu.innerHTML;
 }
+
+  const carousel = document.getElementById("carousel");
+  const nextBtn = document.getElementById("right");
+  const prevBtn = document.getElementById("left");
+
+  nextBtn.addEventListener("click", () => {
+    carousel.scrollLeft += carousel.clientWidth;
+  });
+
+  prevBtn.addEventListener("click", () => {
+    carousel.scrollLeft -= carousel.clientWidth;
+  });
