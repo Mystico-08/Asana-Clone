@@ -2,7 +2,7 @@ CSS Properties
 Justify-content:how items look along the direction of flex
 align-items:how items look perpendicular to the direction of flex
 by default flex is row so justify content is in row but if we set flex direction as column then justify content manages how the code looks in vertical direction
-align-content:different than items as it controls how content is spaced in a flex
+align-content:different than items as it controls how much space there is between two flex lines
 align-self overrides the align items of orignal flex and used to give that specific object different allignment than others
 flec shrink or grow can be used to adjust the size of items relative to others when negative space is distributed.
 keyframes controls the intermediate steps in an animation by defining styles for keyframes in the animation
