@@ -124,9 +124,9 @@
   <button class="close-btn" onclick="closeMobile()">X</button>
 
   <div class="mobile-buttons">
-    <button onclick="toggleMobileMega('product')">Product</button>
-    <button onclick="toggleMobileMega('solutions')">Solutions</button>
-    <button onclick="toggleMobileMega('learning')">Learning</button>
+    <button onclick="toggleMobileMega(this, 'product')">Product</button>
+    <button onclick="toggleMobileMega(this, 'solutions')">Solutions</button>
+    <button onclick="toggleMobileMega(this, 'learning')">Learning</button>
     <button>Pricing</button>
   </div>
 
@@ -156,12 +156,6 @@
             
      </ul>
     </div>
-    <div class="middle">
-    <h2 id="middle-heading">The platform for human + AI 
-        <br>
-        collaboration</h2>
-    <img src="./assets/middle.png">    
-    </div> 
 <h2>See how Asana keeps work<br>
     moving across use cases.
 </h2>
@@ -583,8 +577,5 @@
     </ul>
   </div>
  </footer>
-
-    
-    
 </body>
 </html>
